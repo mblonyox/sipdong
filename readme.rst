@@ -1,51 +1,37 @@
-#######
-sipdong
-#######
+# sipdong
 
-sipdong awalnya hanya merupakan parodi ketika saya melihat beragam (versi?) sistem informasi yang digunakan dalam menyelesaikan pekerjaan di kantor, sekitar tahun 2009. Sistem informasi kami dulunya bernama SIP yang menggunakan antarmuka baris perintah. Seiring dengan perkembangan zaman, diperkenalkanlah SIPWeb yang berbasis Web sebagai pendamping SIP. Setelah itu, kami menggunakan SIPMod (modifikasi) sebagai pengganti SIP dan SIPWeb. Untuk lucu-lucuan dan sebagai sarana pembelajaran, saya mulai menulis SIPdong. "dong" di situ adalah singkatan dari "bodong" (tidak resmi) (dan pada waktu itu memang tidak dapat membantu menyelesaikan pekerjaan sama sekali).
+**sipdong** awalnya hanya merupakan parodi ketika saya melihat beragam (versi?) sistem informasi yang digunakan dalam menyelesaikan pekerjaan di kantor, sekitar tahun 2009. Sistem informasi kami dulunya bernama SIP yang menggunakan antarmuka baris perintah. Seiring dengan perkembangan zaman, diperkenalkanlah SIPWeb yang berbasis Web sebagai pendamping SIP. Setelah itu, kami menggunakan SIPMod (modifikasi) sebagai pengganti SIP dan SIPWeb. Untuk lucu-lucuan dan sebagai sarana pembelajaran, saya mulai menulis SIPdong. "dong" di situ adalah singkatan dari "bodong" (tidak resmi) (dan pada waktu itu memang tidak dapat membantu menyelesaikan pekerjaan).
 
-Sekitar tahun 2014, saya memulai ulang proyek SIPdong dengan menggunakan kerangka kerja CodeIgniter untuk back-end dan Bootstrap untuk front-end. SIPdong pada masa ini sudah mulai berfungsi untuk membantu pekerjaan saya pada waktu itu, yaitu mengawasi pelaksanaan pekerjaan teknis secara sistematis.
+Sekitar tahun 2014, saya memulai ulang proyek SIPdong dengan menggunakan kerangka kerja CodeIgniter untuk back-end dan Bootstrap untuk front-end. SIPdong pada masa ini sudah mulai berfungsi untuk membantu pekerjaan saya pada waktu itu, yaitu mengawasi pelaksanaan pekerjaan teknis secara sistematis. Berhubung aplikasi ini digunakan oleh saya sendiri, saya tidak membuat mekanisme input data secara serius, sehingga di kemudian hari aplikasi ini tidak dapat digunakan lagi.
 
-Sekarang, tahun 2018, saya memulai ulang lagi proyek SIPdong dengan nama sipdong sebagai penyegaran sekaligus untuk menandai bergesernya fokus utama pengembangannya menjadi aplikasi generik untuk membantu menyelesaikan pekerjaan kantoran.
+Sekarang, di tahun 2018, saya memulai ulang lagi proyek SIPdong dengan nama **sipdong** sebagai penyegaran sekaligus untuk menandai bergesernya fokus utama pengembangannya menjadi aplikasi umum serbaguna untuk membantu menyelesaikan pekerjaan kantoran.
 
-***************
-Informasi Rilis
-***************
+## Informasi Rilis
 
 Belum ada.
 
-********************************
-Catatan Perubahan dan Fitur Baru
-********************************
+## Catatan Perubahan dan Fitur Baru
 
 Belum ada.
 
-******************
-Persyaratan Server
-******************
+## Persyaratan Server
 
 Karena sipdong disusun berdasarkan CodeIgniter 3.1.8, persyaratan server untuk menjalankan sipdong juga sama dengan persyaratan untuk CI versi tersebut, yaitu:
 
-Direkomendasikan PHP versi 5.6 atau lebih baru.
+> Direkomendasikan PHP versi 5.6 atau lebih baru.
 
-**********
-Pemasangan
-**********
+## Pemasangan
 
-Memasang sipdong sama mudahnya dengan memasang CodeIgniter, yaitu dengan cara menyalin folder sipdong ke folder tujuan pada server Web Anda.
-Petunjuk selengkapnya dapat dilihat pada `installation <https://codeigniter.com/user_guide/installation/index.html>`_ dari Panduan Pengguna CodeIgniter.
+Memasang **sipdong** sama mudahnya dengan memasang **CodeIgniter**, yaitu dengan cara menyalin folder `sipdong` ke folder `htdocs` pada server Web Anda.
+Petunjuk selengkapnya dapat dilihat pada bagian `installation <https://codeigniter.com/user_guide/installation/index.html>`_ dari Panduan Pengguna CodeIgniter.
 
 Terdapat skema basis data yang harus dipersiapkan terlebih dahulu, namun petunjuk untuk hal tersebut belum disusun.
 
-*******
-Lisensi
-*******
+## Lisensi
 
-Lisensi untuk penggunaan CodeIgniter dalam sipdong
+### Lisensi untuk penggunaan **CodeIgniter** dalam **sipdong**
 
-#####################
 The MIT License (MIT)
-#####################
 
 Copyright (c) 2014 - 2018, British Columbia Institute of Technology
 
@@ -69,7 +55,7 @@ THE SOFTWARE.
 
 Lihat teks asli `persetujuan lisensi CodeIgniter <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
 
-Lisensi sipdong
+### Lisensi **sipdong**
 
 MIT License
 
